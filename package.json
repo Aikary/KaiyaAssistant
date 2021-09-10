@@ -1,0 +1,17 @@
+{
+  "name": "akyradiscordbot",
+  "version": "1.0.0",
+  "description": "Discord Bot for Akyra Network, with 3 Main Features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "akyra"
+  ],
+  "author": "[zAzkkya, Aikari]",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  }
+}
