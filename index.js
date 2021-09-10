@@ -3,18 +3,8 @@ const fs = require("fs");
 const config = require("./utils/config.json");
 
 const client = new Client({
-    intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILDS_MESSAGE],
+    intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILDS_MESSAGES],
 });
-
-client.commands = new Collection();
-const files = fs
-  .readdirSync("./commands")
-  .filter((file) => file.endsWith(".js"));
-
-for (const file of files) {
-    const commands = require(`./commands/${file}`);
-    client.commands.set(commands.name, command);
-}
 
 client.on("ready", () => {
     console.log("AkyraDiscordBot Is Online Yay!");
