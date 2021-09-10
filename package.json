@@ -1,6 +1,6 @@
 {
   "name": "akyradiscordbot",
-  "version": "1.0.0",
+  "version": "2.12",
   "description": "Discord Bot for Akyra Network, with 3 Main Features",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
   "author": "[zAzkkya, Aikari]",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^13.1.0"
+    "discord.js": "^13.0.1"
   }
 }
