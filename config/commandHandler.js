@@ -12,3 +12,4 @@ for (const file of files) {
 }
 
 module.exports = commands;
+
