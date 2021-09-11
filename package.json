@@ -12,6 +12,6 @@
   "author": "[zAzkkya, Aikari]",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^13.0.1"
+    "discord.js": "^13.1.0"
   }
 }
