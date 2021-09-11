@@ -4,4 +4,4 @@
   <br>
 </h1>
 
-<h4 align="center">🚩 Source code of the AkyraDiscordBot, made with love in Node.JS.</h4>
+<h4 align="center">🚩 Source code of the AkyraDiscordBot, made with love in JavaScript.</h4>
