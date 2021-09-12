@@ -1,17 +1,23 @@
 {
-  "name": "akyradiscordbot",
+  "name": "vazyediscordbot",
   "version": "2.12",
-  "description": "Discord Bot for Akyra Network, with 3 Main Features",
+  "repository": "https://github.com/Aikary/AkyraDiscordBot",
+  "description": "Simple Discord Bot for Akyra Network, with 3 Main Features",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "akyra"
+    "akyra",
+    "vazye",
+    "bot",
+    "discord"
   ],
   "author": "[zAzkkya, Aikari]",
   "license": "MIT",
   "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord-player": "^5.0.2",
     "discord.js": "^13.1.0"
   }
 }
